@@ -106,16 +106,18 @@ header .logo {
   margin: 255px 260px 0 250px;
 }
 
-.slider h2 {
+.header-block h2 {
   margin-left: 83px;
   color:  #ffffff;
-  font-size: 41px; Approximation due to font substitution 
+  font-size: 41px;
   font-weight: 800;
   text-align: left;
   text-transform: uppercase;
 }
 
-.slider .slider-block {
+.header-block::after {
+  display: block;
+  content: "";
   margin: 29px 0 0 80px;
   height: 10px;
   width: 60px;
